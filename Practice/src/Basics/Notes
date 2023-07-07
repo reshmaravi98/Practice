@@ -1,0 +1,34 @@
+Notes
+
+Methods:
+Common rules
+1. Should be created outside the main method
+2. Should be called inside the main method
+
+void- doesnot return anything
+
+any datatype (int, float, double, boolean, string)
+     creation: add return statement at the end
+     calling : should be called within sysout statement
+
+Static method - fixed memory space
+
+	syntax for creation: accessmodifier static  returntype name(){}
+	syntax for calling:   classname.methodname();
+
+	accessmodifier: public, private, protected
+	returntype: void, int, float, double, boolean, char, string
+
+Non static method - Does not contain fixed memory space, we have to create memory space
+
+	syntax for creation: accessmodifier returntype name(){}
+	syntax for calling:
+                          classname objectname=new classname();
+                          objectname.methodname();
+
+common for both static and non-static method 
+
+parameter:    variable passed to a function definition:   
+syntax: 	  datatype variablename
+argument:     value assigned to the parameter
+
